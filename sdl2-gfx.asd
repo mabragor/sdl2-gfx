@@ -11,10 +11,10 @@
   :serial t
   :components ((:module autowrap-spec
 			:pathname "spec"
-			:components ((:static-file "SDL2.h")))
+			:components ((:static-file "SDL2_gfx.h")))
 	       (:file "package")
-	       ;; (:file "library")
-	       ;; (:file "autowrap")
+	       (:file "library")
+	       (:file "autowrap")
                (:file "sdl2-gfx")
 	       ;; (:file "gfx-primitives")
 	       ;; (:file "rotozoom")
