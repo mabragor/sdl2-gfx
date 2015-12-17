@@ -11,6 +11,13 @@
   (:import-from :cffi
                 #:mem-ref #:with-foreign-objects #:with-foreign-object
                 #:foreign-alloc #:foreign-free #:null-pointer-p)
+  (:import-from :sdl2
+		;; conditions
+		#:sdl-error #:sdl-rc-error #:sdl-continue #:sdl-quit
+		;; low-level utility functions
+		#:sdl-collect #:sdl-cancel-collect #:sdl-true-p
+		;; ... and utility macro
+		#:check-rc #:check-non-zero #:check-true #:check-null
   (:export
    ;; API
    ;; gfx-primitives

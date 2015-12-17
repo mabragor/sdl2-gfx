@@ -6,7 +6,7 @@
   :license "MIT"
   :depends-on (:alexandria
                :cl-autowrap
-               :cl-plus-c)
+               :cl-plus-c :sdl2)
   :pathname "src"
   :serial t
   :components ((:module autowrap-spec
